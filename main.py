@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def hello():
-    return {"message":"Hello TutLinks.com"}
+    return {"message":"Wellcome to Binh.TrinhA Fast API demo"}
