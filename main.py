@@ -6,10 +6,10 @@ app = FastAPI()
 
 
 class Item(BaseModel):
-    name: str
-    description: Optional[str] = None
-    price: float
-    tax: Optional[float] = None
+    Data: str
+    SendDate: str
+    SignData: str
+
 
 @app.get("/")
 def hello():
